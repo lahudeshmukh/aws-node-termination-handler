@@ -2,9 +2,13 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+pullSecret:
+  required: true
+  name: dockerinfo
+  
 image:
-  repository: amazon/aws-node-termination-handler
-  tag: v1.1.0
+  repository: lahudeshmukh/sphandler
+  tag: spcordon
   pullPolicy: IfNotPresent
 
 nameOverride: ""
