@@ -2,6 +2,10 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+pullSecret:
+  required: true
+  name: dockerinfo
+  
 image:
   repository: lahudeshmukh/sphandler
   tag: spcordon
